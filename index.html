@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anastasia Nails - професійний салон нігтьової естетики, який пропонує широкий спектр послуг, продуктів та курсів для догляду за руками і нігтями.">
+  <meta name="keywords" content="Anastasia Nails, салон нігтьової естетики, манікюр, педікюр, нігті, курси, продукти, догляд">
+  <title>Anastasia Nails</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Ваші попередні стилі */
+
+    /* Нові стилі для гамбургер меню */
+    .hamburger {
+      display: none;
+      cursor: pointer;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      background-color: #333;
+    }
+
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .hamburger {
+        display: block;
+      }
+
+      nav ul {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        flex-direction: column;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+
+      nav ul li {
+        padding: 12px 16px;
+        border-top: 1px solid #ddd;
+      }
+
+      .hamburger:hover + nav ul {
+        display: flex;
+      }
+    }
+
+    /* Змінені стилі для тексту на головному екрані */
+    h1 {
+      color: #000;
+    }
+
+    .hero-text {
+      color: #000;
+    }
+
+    /* Змінені стилі для кнопки "Wiecej informacji" */
+    .animated-button {
+      background-color: #ddd;
+      color: #000;
+      border: 1px solid #000;
+      animation: pulse 1.5s infinite;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul>
+                <li><a class="nav-link" href="#home">Strona główna</a></li>
+        <li><a class="nav-link" href="#services">Kursy online</a></li>
+        <li><a class="nav-link" href="#products">O mnie</a></li>
+        <li><a class="nav-link" href="#courses">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero">
+      <h1>Anastasia Nails</h1>
+      <p class="hero-text">Jesteśmy profesjonalnym salonem estetyki paznokci oferującym szeroką gamę usług, produktów i kursów związanych z pielęgnacją dłoni i paznokci. Nasza oferta obejmuje manicure, pedicure, zabiegi na paznokcie, kursy dla stylistów paznokci i wiele innych.</p>
+      <a href="#about" class="animated-button">Wiecej informacji</a>
+    </section>
+    <article>
+      <!-- Тут можуть бути статті або блоги, пов'язані з вашим сайтом -->
+    </article>
+    <aside>
+      <!-- Тут можуть бути додаткові матеріали, реклама або посилання на соціальні мережі -->
+    </aside>
+    <section id="services">
+      <!-- Тут можуть бути описи послуг, які пропонує ваш салон -->
+    </section>
+    <section id="products">
+      <!-- Тут можуть бути перелік продуктів, які ви пропонуєте -->
+    </section>
+    <section id="courses">
+      <!-- Тут можуть бути інформація про курси, які ви надаєте -->
+    </section>
+    <section id="about">
+      <!-- Тут можуть бути інформація про вашу компанію, історію та команду -->
+    </section>
+    <section id="contact">
+  <h2>Kontakt</h2>
+  <p>Ul. Opolska 8</p>
+  <p>Miasto Katowice</p>
+  <p>Numer kontaktowy: +48 796 512 044</p>
+  <p>
+    Śledź mnie na Instagramie:
+    <a href="https://www.instagram.com/pmu_anastazja/" target="_blank" rel="noopener noreferrer">@pmu_anastazja</a>
+  </p>
+  <!-- Тут можна додати форму зворотнього зв'язку, якщо вам потрібно -->
+</section>
+
+      <!-- Тут можуть бути контактні дані та форма зворотнього зв'язку -->
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; Anastasia Nails 2023</p>
+  </footer>
+  <script>
+    // Тут можна додати JavaScript код для додаткової інтерактивності
+  </script>
+</body>
+</html>
